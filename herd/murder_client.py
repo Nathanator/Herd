@@ -48,13 +48,6 @@ except:
     True = 1
     False = 0
 
-if PSYCO.psyco:
-    try:
-        import psyco
-        assert psyco.__version__ >= 0x010100f0
-        psyco.full()
-    except:
-        pass
 
 doneFlag = None
 isPeer = False
