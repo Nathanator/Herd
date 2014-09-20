@@ -42,12 +42,6 @@ from BitTornado import createPeerID
 from BitTornado.ConfigDir import ConfigDir
 
 assert sys.version >= '2', "Install Python 2.0 or greater"
-try:
-    True
-except:
-    True = 1
-    False = 0
-
 
 doneFlag = None
 isPeer = False
